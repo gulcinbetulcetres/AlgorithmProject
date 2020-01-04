@@ -1,1 +1,1 @@
-# AlgorithmProject
+This programcontain 2 files as input. Both files contains  many names(string) separated by EOL . This program will load all the names from the first file into an AVL tree. Then you will load the second file into a Heap data structure. Then you will search for the word "Ali" in AVL data structure, and print how long it took to search. Then it will search the Heap to find "Ali" and print how long it took to search.
