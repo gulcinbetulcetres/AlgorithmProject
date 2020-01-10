@@ -7,6 +7,7 @@ public class Driver {
 	public static void main(String[] args) throws IOException {
 
 		String file1 = "names.txt";
+		String file 2 = "names1.txt";
 		AVLTree avlt = new AVLTree();
 
 		String line = "";
@@ -27,10 +28,10 @@ public class Driver {
 		}
 		
 		// ************************************************************************************************************************************
-		// heap oluþturuldu.
+		// heap oluÃ¾turuldu.
 		PriorityQueue<String> heap = new PriorityQueue<String>();
 
-		BufferedReader reader2 = new BufferedReader(new FileReader(file1));
+		BufferedReader reader2 = new BufferedReader(new FileReader(file2));
 		while ((line = reader2.readLine()) !=null) {
 			heap.add(line);
 		}
