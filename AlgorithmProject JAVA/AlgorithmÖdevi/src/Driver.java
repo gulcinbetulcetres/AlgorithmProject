@@ -7,7 +7,7 @@ public class Driver {
 	public static void main(String[] args) throws IOException {
 
 		String file1 = "names.txt";
-		String file 2 = "names1.txt";
+		String file2 = "names1.txt";
 		AVLTree avlt = new AVLTree();
 
 		String line = "";
